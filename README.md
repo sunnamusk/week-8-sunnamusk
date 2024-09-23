@@ -1,52 +1,39 @@
 # Solving an SDG Problem with Data (Choose Your SDG)
+Part 1: SDG Selection and Problem Definition
+SDG Selection: Choose an SDG that resonates with you (e.g., SDG 3: Good Health, SDG 7: Affordable and Clean Energy).
+Problem Definition: Identify a specific problem within that SDG. For example:
+SDG 3: Access to healthcare in rural areas.
+SDG 7: Energy access for low-income households.
+Part 2: Database Design
+ERD: Design an Entity-Relationship Diagram (ERD) based on your problem. Identify entities such as Users, Healthcare Facilities, Energy Sources, etc.
+Schema: Write SQL statements to create tables. For instance:
+sql
+Copy code
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    location VARCHAR(100)
+);
+Sample Data: Populate your tables with relevant sample data to reflect real-world scenarios.
+Part 3: SQL Programming
+Data Retrieval: Write queries to retrieve data relevant to your problem.
+sql
+Copy code
+SELECT * FROM Users WHERE location = 'Rural Area';
+Data Analysis: Create queries to generate insights, such as average distance to the nearest healthcare facility.
+Part 4: Data Analysis Using Excel
+Import Data: Use Excel's data connection features to import data from your database.
+Analysis: Create pivot tables and charts to visualize the data.
+Dashboard: Design an interactive dashboard that summarizes key insights.
+Part 5: Integration and Testing
+Integration Documentation: Document how you import data into Excel, including any transformations or cleaning steps.
+Testing: Validate that the data in Excel matches the data in your database.
+Part 6: Presentation
+Pitch Deck: Create a 10-slide PowerPoint presentation covering:
 
-## Overview
-Select a Sustainable Development Goal (SDG) that resonates with you and develop a data-driven solution to address a specific problem within that SDG. Design a database, perform data analysis, and use Microsoft Excel as the user interface.
-
-## Objectives
-- Choose an SDG and identify a specific problem to address.
-- Design and implement a relational database relevant to your chosen problem.
-- Write SQL queries to retrieve and analyze data.
-- Use Microsoft Excel for data visualization and analysis.
-
-## Requirements
-
-### Part 1: SDG Selection and Problem Definition
-- **SDG Selection:** Choose an SDG (e.g., SDG 3: Good Health, SDG 7: Affordable and Clean Energy).
-- **Problem Definition:** Define a specific problem within your chosen SDG that can be addressed using data.
-
-### Part 2: Database Design
-- **ERD:** Design an ERD for your project, including entities relevant to your SDG problem.
-- **Schema:** Write SQL statements to create the database schema based on your ERD.
-- **Sample Data:** Populate the database with relevant sample data.
-
-### Part 3: SQL Programming
-- **Data Retrieval:** Write SQL queries to retrieve relevant data based on your problem definition.
-- **Data Analysis:** Write SQL queries to analyze data and generate insights related to your SDG problem.
-
-### Part 4: Data Analysis Using Excel
-- **Import Data:** Import data from your database into Excel.
-- **Analysis:** Analyze the data using pivot tables, charts, and other Excel tools.
-- **Dashboard:** Create an interactive Excel dashboard to visualize key insights.
-
-### Part 5: Integration and Testing
-- **Integration:** Document the process of importing data into Excel and ensuring consistency.
-- **Testing:** Test the integration and functionality of your Excel dashboard.
-
-### Part 6: Presentation
-- **Pitch Deck:** Develop a 10-slide PowerPoint presentation as taught in the entrepreneurship module covering:
-  - Project overview and SDG alignment.
-  - Problem definition and significance.
-  - Database design and schema.
-  - Data analysis insights.
-  - Excel dashboard demonstration.
-- **Delivery:** Present your pitch deck, demonstrating how your project addresses the SDG problem.
-
-## Deliverables (upload onto this repo)
-- SDG problem definition document
-- ERD
-- SQL scripts
-- Excel workbook with data analysis and dashboard
-- Integration documentation
-- Pitch deck presentation (Provide the link e.g Canva or Gamma in your documentation)
-
+Project overview and SDG alignment
+Problem definition and significance
+Database design and schema
+Key insights from data analysis
+Excel dashboard demonstration
+Delivery: Prepare to present your pitch deck, clearly demonstrating how your project addresses the SDG problem.
